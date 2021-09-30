@@ -1,0 +1,24 @@
+* {
+  font-family: "Manrope", sans-serif;
+}
+.portfolioCard{
+  display: inline-flex;
+  justify-content: space-evenly;
+ justify-items: flex-end;
+  margin-top: 80px;
+}
+
+.portfolioCardContent, .portfolioCardContent img{
+  display: block;
+  justify-content: space-evenly;
+  width: 300px;
+  margin-right: 32px;
+  text-align: left;
+
+}
+.portfolioCardContent p{
+margin-top: 32px;
+margin-bottom: 144px;
+font-size: 18px;
+opacity: 0.9;
+}

@@ -1,0 +1,39 @@
+* {
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+}
+
+.portfolioContainer {
+  display: block;
+  height: auto;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 100px;
+
+  background: linear-gradient(white 50%, #60e1cb 50%);
+}
+
+.portfolioContainer h3 {
+  font-size: 24px;
+  color: #7bc0e3;
+}
+.portfolioContainer h2 {
+  font-size: 48px;
+  color: #292525;
+}
+
+.portfolioButtons button {
+  display: inline-flex;
+  margin-top: 55px;
+  background-color: white;
+  color: #7bc0e3;
+  padding: 15px;
+  margin-right: 65px;
+  border: none;
+}
+.activeBtn {
+  border-radius: 1000px;
+  border: 2px solid #7bc0e3 !important;
+}
+
